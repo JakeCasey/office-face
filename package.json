@@ -1,0 +1,30 @@
+{
+  "name": "example-menubar-hello-world",
+  "version": "0.1.0",
+  "description": "Example menubar electron app",
+  "main": "main.js",
+  "private": true,
+  "scripts": {
+    "start": "electron ."
+  },
+  "productName": "Office Face",
+  "dependencies": {
+    "@tailwindcss/ui": "^0.1.3",
+    "autoprefixer": "^9.7.4",
+    "electron": "^8.1.0",
+    "electron-reload": "^1.5.0",
+    "face-api.js": "^0.22.1",
+    "lodash.debounce": "^4.0.8",
+    "menubar": "^8.0.0",
+    "postcss": "^7.0.27",
+    "postcss-cli": "^7.1.0",
+    "tailwindcss": "^1.2.0"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-postcss": "^8.0.0",
+    "gulp-watch": "^5.0.1",
+    "postcss-loader": "^3.0.0",
+    "webpack-dev-server": "^3.10.3"
+  }
+}

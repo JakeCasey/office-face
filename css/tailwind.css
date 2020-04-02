@@ -1,0 +1,59 @@
+@tailwind base;
+
+@tailwind components;
+
+.test {
+  @apply w-full;
+}
+
+.options {
+  @apply flex items-center flex-1 p-4 pr-5 m-2 bg-white rounded-lg shadow cursor-pointer;
+}
+
+.util-buttons {
+  @apply flex-1 px-5 py-4 text-center text-white bg-blue-600 rounded-lg cursor-pointer;
+}
+
+.interval {
+  @apply cursor-pointer;
+}
+
+.interval.active {
+  @apply text-white bg-blue-500;
+}
+
+.interval.active:hover {
+  @apply text-white bg-blue-400;
+}
+
+.tag--success {
+  @apply text-green-800 bg-green-100;
+}
+
+.tag--success svg {
+  @apply text-green-400;
+}
+
+.tag--danger {
+  @apply text-red-800 bg-red-100;
+}
+
+.tag--danger svg {
+  @apply text-red-400;
+}
+
+.input-card {
+  @apply w-full px-3 py-4;
+}
+
+@screen md {
+  .input-card {
+    @apply w-1/2;
+  }
+}
+
+#videos_and_canvases {
+  height: 500px;
+}
+
+@tailwind utilities;
