@@ -16,7 +16,7 @@
     "face-api.js": "^0.22.1",
     "lodash.debounce": "^4.0.8",
     "menubar": "^8.0.0",
-    "postcss": "^7.0.27",
+    "postcss": "^7.0.36",
     "postcss-cli": "^7.1.0",
     "tailwindcss": "^1.2.0"
   },
